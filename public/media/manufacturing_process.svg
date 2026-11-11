@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="100%" height="100%">
+  <!-- Left: 3D Printing FDM -->
+  <g transform="translate(30, 20)">
+    <rect width="455" height="480" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="2" />
+    <text x="227" y="45" fill="#0f172a" font-family="system-ui, sans-serif" font-size="18" font-weight="900" text-anchor="middle">IMPRESIÓN 3D FDM (ADITIVA)</text>
+    
+    <!-- Nozzle and Hotend -->
+    <g transform="translate(227, 80)">
+      <rect x="-35" y="0" width="70" height="45" rx="4" fill="#94a3b8" />
+      <polygon points="0,75 -20,45 20,45" fill="#eab308" />
+      <!-- Filament thread entering -->
+      <line x1="0" y1="-30" x2="0" y2="0" stroke="#3b82f6" stroke-width="6" />
+      <!-- Extruded line -->
+      <line x1="0" y1="75" x2="0" y2="90" stroke="#3b82f6" stroke-width="4" />
+    </g>
+
+    <!-- Layers of Drone arm being built -->
+    <g transform="translate(80, 200)">
+      <rect x="0" y="0" width="295" height="10" rx="3" fill="#3b82f6" opacity="0.6" stroke="#1d4ed8" stroke-width="1" /><rect x="0" y="12" width="295" height="10" rx="3" fill="#3b82f6" opacity="0.65" stroke="#1d4ed8" stroke-width="1" /><rect x="0" y="24" width="295" height="10" rx="3" fill="#3b82f6" opacity="0.7" stroke="#1d4ed8" stroke-width="1" /><rect x="0" y="36" width="295" height="10" rx="3" fill="#3b82f6" opacity="0.75" stroke="#1d4ed8" stroke-width="1" /><rect x="0" y="48" width="295" height="10" rx="3" fill="#3b82f6" opacity="0.8" stroke="#1d4ed8" stroke-width="1" /><rect x="0" y="60" width="295" height="10" rx="3" fill="#3b82f6" opacity="0.85" stroke="#1d4ed8" stroke-width="1" /><rect x="0" y="72" width="295" height="10" rx="3" fill="#3b82f6" opacity="0.9" stroke="#1d4ed8" stroke-width="1" /><rect x="0" y="84" width="295" height="10" rx="3" fill="#3b82f6" opacity="0.95" stroke="#1d4ed8" stroke-width="1" />
+      <!-- Internal Honeycomb infill preview -->
+      <text x="147" y="55" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Relleno Infill Panal 20%</text>
+    </g>
+
+    <text x="227" y="380" fill="#334155" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Boquilla a 210°C • Filamentos PLA, PETG, TPU</text>
+    <text x="227" y="410" fill="#64748b" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Fabrica piezas huecas ultra-ligeras con curvas complejas</text>
+  </g>
+
+  <!-- Right: Laser Cutting CNC -->
+  <g transform="translate(515, 20)">
+    <rect width="455" height="480" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="2" />
+    <text x="227" y="45" fill="#0f172a" font-family="system-ui, sans-serif" font-size="18" font-weight="900" text-anchor="middle">CORTE LÁSER &amp; CNC (SUSTRACTIVA)</text>
+
+    <!-- Laser head -->
+    <g transform="translate(227, 80)">
+      <rect x="-25" y="0" width="50" height="50" rx="4" fill="#334155" />
+      <!-- Concentrated Laser Beam -->
+      <line x1="0" y1="50" x2="0" y2="120" stroke="#06b6d4" stroke-width="3" />
+      <line x1="0" y1="50" x2="0" y2="120" stroke="#ffffff" stroke-width="1" />
+      <!-- Spark ring at focal point -->
+      <circle cx="0" cy="120" r="10" fill="#22d3ee" opacity="0.6" />
+      <circle cx="0" cy="120" r="4" fill="#ffffff" />
+    </g>
+
+    <!-- Cut Carbon Fiber Plate -->
+    <g transform="translate(80, 220)">
+      <rect width="295" height="100" rx="8" fill="#1e293b" stroke="#475569" stroke-width="2" />
+      <!-- Carbon fiber weave texture lines -->
+      <path d="M 20 20 L 275 20 M 20 50 L 275 50 M 20 80 L 275 80" stroke="#334155" stroke-dasharray="8 8" stroke-width="3" />
+      <!-- Precision laser cut contour -->
+      <rect x="50" y="25" width="80" height="50" rx="4" fill="none" stroke="#06b6d4" stroke-width="2.5" stroke-dasharray="6 4" />
+      <circle cx="210" cy="50" r="18" fill="none" stroke="#06b6d4" stroke-width="2.5" />
+    </g>
+
+    <text x="227" y="380" fill="#334155" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Rayo Láser CO2 • Fibra de Carbono 3K, Acrílico, MDF</text>
+    <text x="227" y="410" fill="#64748b" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Corta un chasis de dron completo en apenas 2 minutos</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ndviGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d" />
+      <stop offset="50%" stop-color="#84cc16" />
+      <stop offset="80%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="580" fill="#0f172a" rx="20" />
+
+  <text x="500" y="45" fill="#84cc16" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" letter-spacing="2" text-anchor="middle">TELEDETECCIÓN AGRÍCOLA • MAVIC 3M</text>
+  <text x="500" y="80" fill="#ffffff" font-family="system-ui, sans-serif" font-size="26" font-weight="900" text-anchor="middle">Índice de Vigor Vegetal (NDVI) &amp; Guiado de Aspersión</text>
+
+  <!-- Crop field patches -->
+  <g transform="translate(80, 120)">
+    <!-- Zone 1: High vigor (Deep Green) -->
+    <path d="M 0 0 L 260 0 L 220 180 L 0 160 Z" fill="#15803d" stroke="#22c55e" stroke-width="2" />
+    <text x="110" y="80" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="black" text-anchor="middle">NDVI +0.82</text>
+    <text x="110" y="105" fill="#dcfce7" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">Cultivo Sano (100%)</text>
+
+    <!-- Zone 2: Moderate (Lime) -->
+    <path d="M 280 0 L 560 0 L 520 180 L 240 180 Z" fill="#65a30d" stroke="#a3e635" stroke-width="2" />
+    <text x="400" y="80" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="black" text-anchor="middle">NDVI +0.55</text>
+    <text x="400" y="105" fill="#ecfccb" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">Crecimiento Normal</text>
+
+    <!-- Zone 3: Water Stress / Plaga (Orange/Red) -->
+    <path d="M 580 0 L 840 0 L 800 180 L 540 180 Z" fill="#ea580c" stroke="#f97316" stroke-width="2" />
+    <text x="690" y="80" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="black" text-anchor="middle">NDVI +0.21</text>
+    <text x="690" y="105" fill="#ffedd5" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">&iexcl;ALERTA ESTRÉS HÍDRICO!</text>
+
+    <!-- Spray Drone Flight Path Guidance -->
+    <path d="M 50 240 L 780 240 L 780 320 L 50 320" fill="none" stroke="#38bdf8" stroke-width="3" stroke-dasharray="10 8" />
+    <circle cx="780" cy="240" r="12" fill="#38bdf8" />
+    <text x="420" y="285" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Ruta de Aplicación Automática para Dron Agrícola de 4° Medio</text>
+  </g>
+
+  <!-- Formula Banner Bottom -->
+  <g transform="translate(80, 480)">
+    <rect width="840" height="60" rx="12" fill="#1e293b" stroke="#334155" />
+    <text x="420" y="36" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Fórmula: NDVI = (NIR - Red) / (NIR + Red) • Ahorro del 30% en fitosanitarios y agua</text>
+  </g>
+</svg>

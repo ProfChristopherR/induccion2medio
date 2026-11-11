@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 580" width="100%" height="100%">
+  <rect width="1100" height="580" fill="#f8fafc" rx="20" stroke="#e2e8f0" stroke-width="2" />
+  
+  <text x="550" y="45" fill="#0f172a" font-family="system-ui, sans-serif" font-size="24" font-weight="900" text-anchor="middle">Flota Operacional de Drones • Liceo San Nicolás</text>
+  <text x="550" y="70" fill="#64748b" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle">Equipos disponibles en el liceo para inducción, entrenamiento y operaciones territoriales</text>
+
+  <!-- 7 Drone cards in 2 rows -->
+  <!-- 1. DJI NEO -->
+  <g transform="translate(50, 100)">
+    <rect width="220" height="190" rx="14" fill="#ffffff" stroke="#10b981" stroke-width="2" />
+    <rect x="15" y="15" width="190" height="24" rx="12" fill="#d1fae5" />
+    <text x="110" y="32" fill="#065f46" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">VUELO SEGURO EN SALA</text>
+    <circle cx="110" cy="85" r="28" fill="#f1f5f9" stroke="#10b981" stroke-width="2" stroke-dasharray="4 4" />
+    <text x="110" y="90" fill="#0f172a" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">DJI NEO</text>
+    <text x="110" y="140" fill="#334155" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">135g • Guardas 360°</text>
+    <text x="110" y="165" fill="#64748b" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Despegue en palma</text>
+  </g>
+
+  <!-- 2. FPV Indoor -->
+  <g transform="translate(300, 100)">
+    <rect width="220" height="190" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+    <rect x="15" y="15" width="190" height="24" rx="12" fill="#e0f2fe" />
+    <text x="110" y="32" fill="#0369a1" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">MICRO-PILOTAJE ACRO</text>
+    <circle cx="110" cy="85" r="28" fill="#f1f5f9" stroke="#0284c7" stroke-width="2" />
+    <text x="110" y="90" fill="#0f172a" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">FPV Indoor</text>
+    <text x="110" y="140" fill="#334155" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">110g • Whoop Ducted</text>
+    <text x="110" y="165" fill="#64748b" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Gafas de inmersión</text>
+  </g>
+
+  <!-- 3. FPV Outdoor -->
+  <g transform="translate(550, 100)">
+    <rect width="220" height="190" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+    <rect x="15" y="15" width="190" height="24" rx="12" fill="#fee2e2" />
+    <text x="110" y="32" fill="#b91c1c" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">ANATOMÍA AL DESNUDO</text>
+    <rect x="85" y="65" width="50" height="40" rx="6" fill="#1e293b" />
+    <text x="110" y="90" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">FPV 5"</text>
+    <text x="110" y="140" fill="#334155" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">680g • Fibra 3K 5mm</text>
+    <text x="110" y="165" fill="#64748b" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Motores brushless visibles</text>
+  </g>
+
+  <!-- 4. DJI Mini 4K -->
+  <g transform="translate(800, 100)">
+    <rect width="220" height="190" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+    <rect x="15" y="15" width="190" height="24" rx="12" fill="#fef3c7" />
+    <text x="110" y="32" fill="#92400e" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">ESCUELA DGAC &lt;249G</text>
+    <circle cx="110" cy="85" r="28" fill="#f1f5f9" stroke="#f59e0b" stroke-width="2" />
+    <text x="110" y="90" fill="#0f172a" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Mini 4K</text>
+    <text x="110" y="140" fill="#334155" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">246g • Gimbal 3 Ejes</text>
+    <text x="110" y="165" fill="#64748b" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">31 min autonomía</text>
+  </g>
+
+  <!-- Bottom Row: 3 Heavy Industrial Drones -->
+  <!-- 5. Phantom 4 Pro -->
+  <g transform="translate(170, 320)">
+    <rect width="240" height="210" rx="14" fill="#ffffff" stroke="#6366f1" stroke-width="2" />
+    <rect x="15" y="15" width="210" height="24" rx="12" fill="#e0e7ff" />
+    <text x="120" y="32" fill="#4338ca" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">FOTOGRAMETRÍA RTK</text>
+    <circle cx="120" cy="95" r="32" fill="#e0e7ff" />
+    <text x="120" y="100" fill="#1e1b4b" font-family="system-ui, sans-serif" font-size="14" font-weight="black" text-anchor="middle">Phantom 4</text>
+    <text x="120" y="150" fill="#334155" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">1388g • Sensor 1" Shutter</text>
+    <text x="120" y="175" fill="#64748b" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">Sin distorsión rolling shutter</text>
+  </g>
+
+  <!-- 6. Mavic 3T (Thermal) -->
+  <g transform="translate(440, 320)">
+    <rect width="240" height="210" rx="14" fill="#ffffff" stroke="#ef4444" stroke-width="2.5" />
+    <rect x="15" y="15" width="210" height="24" rx="12" fill="#fee2e2" />
+    <text x="120" y="32" fill="#b91c1c" font-family="system-ui, sans-serif" font-size="11" font-weight="black" text-anchor="middle">TÉRMICO RADIOMÉTRICO (SAR)</text>
+    <circle cx="120" cy="95" r="32" fill="#fee2e2" />
+    <text x="120" y="100" fill="#7f1d1d" font-family="system-ui, sans-serif" font-size="14" font-weight="black" text-anchor="middle">Mavic 3T</text>
+    <text x="120" y="150" fill="#334155" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">920g • Sensor 640x512</text>
+    <text x="120" y="175" fill="#dc2626" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Detecta calor humano (37°C)</text>
+  </g>
+
+  <!-- 7. Mavic 3M (Multispectral) -->
+  <g transform="translate(710, 320)">
+    <rect width="240" height="210" rx="14" fill="#ffffff" stroke="#10b981" stroke-width="2.5" />
+    <rect x="15" y="15" width="210" height="24" rx="12" fill="#d1fae5" />
+    <text x="120" y="32" fill="#065f46" font-family="system-ui, sans-serif" font-size="11" font-weight="black" text-anchor="middle">MULTIESPECTRAL NDVI (AGRO)</text>
+    <circle cx="120" cy="95" r="32" fill="#d1fae5" />
+    <text x="120" y="100" fill="#064e3b" font-family="system-ui, sans-serif" font-size="14" font-weight="black" text-anchor="middle">Mavic 3M</text>
+    <text x="120" y="150" fill="#334155" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">951g • 4 Bandas G/R/RE/NIR</text>
+    <text x="120" y="175" fill="#059669" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Salud vegetal y fitosanitarios</text>
+  </g>
+</svg>
